@@ -1,0 +1,56 @@
+# robots.txt for KAT Infra and Developers (https://katinfra.com)
+# Optimized for Web Search Crawlers and AI Answer Engines (AEO)
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Google Search & Google Extended (Gemini / AI Overviews)
+User-agent: Googlebot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# OpenAI / ChatGPT Search (AEO)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity AI (AEO)
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic / Claude (AEO)
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Microsoft Bing & Copilot (AEO)
+User-agent: Bingbot
+Allow: /
+User-agent: msnbot
+Allow: /
+
+# Apple Intelligence & Siri (AEO)
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI & Amazon
+User-agent: FacebookBot
+Allow: /
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: Amazonbot
+Allow: /
+
+# Crawl Delay
+Crawl-delay: 1
+
+# Sitemap Index
+Sitemap: https://katinfra.com/sitemap.xml
